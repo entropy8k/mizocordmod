@@ -1,0 +1,66 @@
+focus_tree = {
+	id = narkrepublic
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RHI
+		}
+	}
+	#Seeds of Authoritarianism
+	focus = {
+		id = RHI_seeds_of_authoritarianism
+		icon = GFX_RHI_seeds_of_authoritarianism-59
+		x = 3
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		select_effect = {
+set_country_leader_ideology = Nazism
+
+
+}
+	}
+
+	#Embrace Narkian Nationalism
+	focus = {
+		id = RHI_embrace_narkian_nationalism
+		icon = GFX_RHI_embrace_narkian_nationalism-645562
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = RHI_seeds_of_authoritarianism  }
+		select_effect = {
+give_guarantee = KSH
+
+gives_military_access_to = KSH
+
+
+}
+	}
+
+	#The Cult of Nark
+	focus = {
+		id = RHI_the_cult_of_nark
+		icon = GFX_RHI_the_cult_of_nark-646278
+		x = 3
+		y = 2
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = RHI_embrace_narkian_nationalism  }
+		select_effect = {
+add_civil_war_target = BAY
+
+
+}
+	}
+
+}

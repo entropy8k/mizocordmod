@@ -1,0 +1,16 @@
+characters = {
+	#Vincent
+	incest_vincent = {
+		name = incest_vincent
+		portraits = {
+			civilian = {
+				large = GFX_incest_vincent_large
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { old_guard }
+			expire = "1950.9.12.6"
+		}
+	}
+}

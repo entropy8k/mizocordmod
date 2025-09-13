@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+
+		NSgov_neo_nazis_in_the_goverment = {
+			picture = NSgov_neo_nazis_in_the_goverment-1080
+			traits = {
+				 fascist_sympathies
+			}
+			modifier = {
+				drift_defence_factor = 0.3
+
+
+			}
+		}
+	}
+}

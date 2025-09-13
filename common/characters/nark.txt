@@ -1,0 +1,16 @@
+characters = {
+	#Nark
+	nark_nark = {
+		name = nark_nark
+		portraits = {
+			civilian = {
+				large = GFX_nark_nark_large
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { harsh_leader aggressive_assaulter bold }
+			expire = "1950.9.12.6"
+		}
+	}
+}

@@ -1,0 +1,3 @@
+LIZ = "countries/LEAMHist independent zone.txt"
+DAF = "countries/Dunk's Armed Forces.txt"
+IWA = "countries/Incest Waffen.txt"

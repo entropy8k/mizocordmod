@@ -1,0 +1,16 @@
+characters = {
+	#Dunk Dunk
+	dunk_dunk_dunk_dunk = {
+		name = dunk_dunk_dunk_dunk
+		portraits = {
+			civilian = {
+				large = GFX_dunk_dunk_dunk_dunk_large
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { trait_reckless shadow_of_calles popular_figurehead anti_communist_crusader smooth_talking_charmer }
+			expire = "1950.9.12.6"
+		}
+	}
+}

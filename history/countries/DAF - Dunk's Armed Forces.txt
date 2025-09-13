@@ -1,0 +1,49 @@
+﻿capital = 1
+# Recruit Characters
+oob = "DAF_1936"
+starting_train_buffer = 1
+set_research_slots = 3
+set_stability = 41
+set_war_support = 67
+add_command_power = 48
+set_convoys = 0
+
+# Politics for 1936.1.1
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
+}
+# Government/National Spirits
+add_ideas = {
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	partial_economic_mobilisation
+}
+
+1939.1.1 = {
+	oob = "DAF_1939"
+	starting_train_buffer = 0
+	set_research_slots = 3
+	set_stability = 0.5
+	set_war_support = 0.5
+	add_command_power = 0
+	set_convoys = 0
+
+	# Politics for 1939.1.1
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}

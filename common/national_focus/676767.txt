@@ -1,0 +1,144 @@
+focus_tree = {
+	id = 676767
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HES
+		}
+	}
+	#Nazis? Not my anti-goy nation!
+	focus = {
+		id = HES_nazisnotmyantigoynation
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 0
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			has_war_support > 6.7
+			
+			
+		}
+	}
+
+	#Anal Akbar!
+	focus = {
+		id = HES_analakbar
+		icon = GFX_HES_analakbar-843819
+		x = 2
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HES_nazisnotmyantigoynation  }
+		bypass = {
+			political_power_daily > 4.1
+			
+			
+		}
+	}
+
+	#Ts land was promised to us 67 million years ago!
+	focus = {
+		id = HES_tslandwaspromisedtous67millionyearsago
+		icon = GFX_focus_generic_combined_arms
+		x = 4
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HES_nazisnotmyantigoynation  }
+		mutually_exclusive = { focus = HES_analakbar  }
+		completion_reward = {
+			any_guaranteed_country = { ISR
+			
+			}
+			
+		}
+	}
+
+	#ALI ALI ALI ALI
+	focus = {
+		id = HES_ali_ali_ali_ali
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 2
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HES_analakbar  }
+		completion_reward = {
+			diplomatic_relation = {
+			    country = THU
+			    relation = guarantee
+			    active = no
+			}
+			
+			
+			
+		}
+	}
+
+	#If Nark Attcked Arab Nation
+	focus = {
+		id = HES_if_nark_attcked_arab_nation
+		icon = GFX_goal_generic_small_arms
+		x = 1
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HES_ali_ali_ali_ali  }
+		will_lead_to_war_with = RHI
+	}
+
+	#Down with the lolcows
+	focus = {
+		id = HES_down_with_the_lolcows
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HES_ali_ali_ali_ali  }
+		will_lead_to_war_with = BAY
+	}
+
+	#Le anarchists
+	focus = {
+		id = HES_le_anarchists
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = 2
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HES_if_nark_attcked_arab_nation  } prerequisite = { focus = HES_down_with_the_lolcows  }
+		will_lead_to_war_with = WUR
+	}
+
+	#Way up north
+	focus = {
+		id = HES_way_up_north
+		icon = GFX_HES_way_up_north-262115
+		x = 1
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HES_le_anarchists  }
+		will_lead_to_war_with = HAN
+	}
+
+}

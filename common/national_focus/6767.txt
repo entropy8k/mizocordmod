@@ -1,0 +1,111 @@
+focus_tree = {
+	id = 6767
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	#Talk with the Blueberries
+	focus = {
+		id = GER_talk_with_the_blueberries
+		icon = GFX_focus_generic_monarchy_1
+		x = 0
+		y = 0
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			annex_country = {
+			    target = SAX
+			    transfer_troops = yes
+			}
+			
+			
+			
+		}
+	}
+
+	#Anti Lolcow Action
+	focus = {
+		id = GER_anti_lolcow_action
+		icon = GFX_GER_anti_lolcow_action-4
+		x = 0
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_talk_with_the_blueberries  }
+		completion_reward = {
+			
+				create_faction = Anti Lolcow Action
+			
+			}
+			
+		}
+	}
+
+	#Wait PCB Exists?
+	focus = {
+		id = GER_waitpcbexists
+		icon = GFX_goal_demand_sudetenland
+		x = 2
+		y = 0
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = GER_talk_with_the_blueberries  }
+		completion_reward = {
+			promote_character = GER_erwin_rommel
+			  promote_character = {
+			      character = GER_erwin_rommel
+			      Ideology = nazism
+			  }
+			
+			
+		}
+	}
+
+	#Ally the Kaiser
+	focus = {
+		id = GER_ally_the_kaiser
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 2
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_anti_lolcow_action  }
+		completion_reward = {
+			is_ally_with = PRE
+			
+			
+		}
+	}
+
+	#Fuh Da Kaiser
+	focus = {
+		id = GER_fuh_da_kaiser
+		icon = GFX_focus_generic_monarchy_2
+		x = 0
+		y = 2
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_anti_lolcow_action  }
+		mutually_exclusive = { focus = GER_ally_the_kaiser  }
+		completion_reward = {
+			has_annex_war_goal = PRE
+			
+			
+		}
+	}
+
+}

@@ -1,0 +1,250 @@
+focus_tree = {
+	id = national-recommendation-army
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAN
+		}
+	}
+	#Arm The People!
+	focus = {
+		id = HAN_armthepeople
+		icon = GFX_goal_generic_small_arms
+		x = 3
+		y = 0
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 5000
+			    producer = HES
+			}
+			
+			
+			
+			add_manpower = 10000
+			
+			
+		}
+	}
+
+	#March for the Nation
+	focus = {
+		id = HAN_march_for_the_nation
+		icon = GFX_HAN_march_for_the_nation-645497
+		x = 3
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HAN_armthepeople  }
+		completion_reward = {
+			create_wargoal = {
+			    type = annex_wargoal_focus
+			    target = SHL
+			}
+			
+			
+			
+		}
+	}
+
+	#Demand the Rhineland!
+	focus = {
+		id = HAN_demandtherhineland
+		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HAN_march_for_the_nation  }
+		completion_reward = {
+			declare_war_on = {
+			    target = RHI
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Arabs… AND LATINXS!?
+	focus = {
+		id = HAN_arabsandlatinxs
+		icon = GFX_HAN_arabsandlatinxs-843819
+		x = 4
+		y = 2
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HAN_march_for_the_nation  }
+		completion_reward = {
+			declare_war_on = {
+			    target = HES
+			    type = annex_everything
+			}
+			
+			
+			declare_war_on = {
+			    target = THU
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Way Down South…
+	focus = {
+		id = HAN_waydownsouth
+		icon = GFX_focus_jap_strike_south
+		x = 4
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HAN_arabsandlatinxs  }
+		completion_reward = {
+			declare_war_on = {
+			    target = BAY
+			    type = annex_everything
+			}
+			
+			
+			declare_war_on = {
+			    target = WUR
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Borker... Let me tell ya he was bad
+	focus = {
+		id = HAN_borkerletmetellyahewasbad
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 2
+		y = 4
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HAN_demandtherhineland  }
+		completion_reward = {
+			declare_war_on = {
+			    target = MEK
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Return To The Fatherland.
+	focus = {
+		id = HAN_return_to_the_fatherland
+		icon = GFX_focus_eng_special_air_service
+		x = 3
+		y = 5
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = HAN_waydownsouth  } prerequisite = { focus = HAN_waydownsouth  }
+		completion_reward = {
+			declare_war_on = {
+			    target = GER
+			    type = annex_everything
+			}
+			
+			
+			declare_war_on = {
+			    target = SAX
+			    type = annex_everything
+			}
+			
+			
+			declare_war_on = {
+			    target = SIL
+			    type = annex_everything
+			}
+			
+			
+			declare_war_on = {
+			    target = KSH
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Wait… Them Again?
+	focus = {
+		id = HAN_waitthemagain
+		icon = GFX_HAN_waitthemagain-645604
+		x = 3
+		y = 6
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HAN_return_to_the_fatherland  }
+		completion_reward = {
+			
+			
+			declare_war_on = {
+			    target = LIZ
+			    type = annex_everything
+				can_declare_war_on = daf
+			
+				declare_war_on = {
+			    target = DAF
+			    type = annex_everything
+			}
+			
+			
+				declare_war_on = {
+			    target = PRE
+			    type = annex_everything
+			}
+			
+			
+				declare_war_on = {
+			    target = BLR
+			    type = annex_everything
+			}
+			
+			
+				declare_war_on = {
+			    target = UKR
+			    type = annex_everything
+			}
+			
+			
+			}
+			
+			
+			
+			
+			
+		}
+	}
+
+}

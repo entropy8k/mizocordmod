@@ -1,16 +1,16 @@
 state = {
-	id = 61
-	name = "STATE_61"
-	manpower = 836353
+	id=61
+	name="STATE_61"
+	manpower=836353
 
 
-	state_category = town
+	state_category=town
 
 	history = {
 
-		owner = MEK
-		add_core_of = GER
-		add_core_of = MEK
+		owner=LRP
+		add_core_of = MCC
+		add_core_of = LRP
 
 		victory_points = {
 			321 5 # Rostocj
@@ -21,13 +21,13 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 3
-			arms_factory = 3
+			infrastructure=3
+			arms_factory=3
 			321 = {
 				naval_base = 6
 
 			}
-			air_base = 3
+			air_base=3
 		}
 		
 	}

@@ -1,19 +1,18 @@
 state = {
-	id = 42
-	name = "STATE_42"
-	manpower = 3027739
+	id=42
+	name="STATE_42"
+	manpower=3027739
 	resources = {
-		steel = 50 #was 21 #was 35 was 59 # was: 100
-		aluminium = 14 # was: 24
+		steel=50 #was 21 #was 35 was 59 # was: 100
+		aluminium=14 # was: 24
 	}
 	
-	state_category = metropolis
+	state_category=metropolis
 
 	history = {
 
-		owner = RHI
-		add_core_of = GER
-		add_core_of = RHI
+		owner=VCE
+		add_core_of = VCE
 
 		victory_points = { 
 			11435 1 # Bitburg
@@ -32,8 +31,8 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
+			infrastructure=4
+			industrial_complex=3
 		}
 	
 		set_demilitarized_zone = yes

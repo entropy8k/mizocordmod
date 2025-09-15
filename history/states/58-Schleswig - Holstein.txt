@@ -1,14 +1,13 @@
 state = {
-	id = 58
-	name = "STATE_58"
-	manpower = 3095630 
-	state_category = large_city
+	id=58
+	name="STATE_58"
+	manpower=3095630
+	state_category=large_city
 	
 	history = {
 
-		owner = SHL
-		add_core_of = GER
-		add_core_of = SHL
+		owner=VLK
+		add_core_of = VLK
 
 		victory_points = {
 			6389 10 # Kiel
@@ -19,10 +18,10 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			dockyard = 6
-			air_base = 5
+			infrastructure=3
+			arms_factory=1
+			dockyard=6
+			air_base=5
 			6389 = {
 				naval_base = 8	
 			}

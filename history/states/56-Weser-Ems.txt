@@ -1,15 +1,14 @@
 state = {
-	id = 56
-	name = "STATE_56"
-	manpower = 2058467
+	id=56
+	name="STATE_56"
+	manpower=2058467
 	
-	state_category = city
+	state_category=city
 
 	history = {
 
-		owner = HAN
-		add_core_of = GER
-		add_core_of = HAN
+		owner=DAF
+		add_core_of = DAF
 
 		victory_points = {
 			241 5 # Wilhelmshaven
@@ -24,14 +23,14 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			dockyard = 2
-			fuel_silo = 1
+			infrastructure=3
+			industrial_complex=2
+			dockyard=2
+			fuel_silo=1
 			241 = {
 				naval_base = 8
 			}
-			air_base = 3
+			air_base=3
 		}
 		
 		1939.1.1 = {

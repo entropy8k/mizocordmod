@@ -1,23 +1,23 @@
 state = {
-	id = 762
-	name = "STATE_762"
-	manpower = 1000000
+	id=762
+	name="STATE_762"
+	manpower=1000000
 	resources = {
-		steel = 19
-		aluminium = 7
+		steel=19
+		aluminium=7
 	}
-	state_category = city
+	state_category=city
 	history = {
-		owner = SIL
-		add_core_of = SIL
+		owner=NAA
+		add_core_of = NAA
 		add_claim_by = LIZ
 		victory_points = { 
 			6464 5
 		}
 
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure=3
+			industrial_complex=1
 		}
 	}
 	provinces = { 506 6464 }

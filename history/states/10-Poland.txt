@@ -1,10 +1,10 @@
 state = {
-	id = 10
-	name = "STATE_10"
-	manpower = 3089000
-	state_category = large_city
+	id=10
+	name="STATE_10"
+	manpower=3089000
+	state_category=large_city
 	history = {
-		owner = DAF
+		owner=POL
 		victory_points = { 
 			3544 25
 		}
@@ -14,11 +14,11 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 4
-			arms_factory = 6
-			industrial_complex = 2
-			anti_air_building = 2
-			air_base = 5
+			infrastructure=4
+			arms_factory=6
+			industrial_complex=2
+			anti_air_building=2
+			air_base=5
 		}
 		add_core_of = POL
 	}

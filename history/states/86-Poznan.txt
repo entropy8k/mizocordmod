@@ -1,19 +1,19 @@
 state = {
-	id = 86
-	name = "STATE_86"
-	manpower = 2106500
-	state_category = city
+	id=86
+	name="STATE_86"
+	manpower=2106500
+	state_category=city
 	history = {
-		owner = LIZ
-		add_core_of = POL
+		owner=HSS
+		add_core_of = HSS
 		add_claim_by = PRE
 		victory_points = { 
 			6558 10
 		}
 
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure=3
+			industrial_complex=1
 			11232 = {
 				bunker = 1
 			}
@@ -23,7 +23,7 @@ state = {
 			3381 = {
 				bunker = 1
 			}
-			air_base = 3
+			air_base=3
 		}
 		1938.3.12 = {
 			add_claim_by = GER

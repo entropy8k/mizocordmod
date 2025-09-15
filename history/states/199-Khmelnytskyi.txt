@@ -2,22 +2,21 @@
 state={
 	id=199
 	name="STATE_199"
-	manpower = 1424022
+	manpower=1424022
 	
-	state_category = town
+	state_category=town
 
 	history={
 		victory_points = {
 			3457 3
 		}
-		owner = SOV
+		owner=SOV
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			air_base = 3
+			infrastructure=3 #was: 5
+			industrial_complex=1
+			air_base=3
 		}
 		add_core_of = SOV
-		add_core_of = UKR
 	}
 
 	provinces={

@@ -4,18 +4,18 @@ state={
 	name="STATE_814"
 
 	history={
-		owner = LIT
+		owner=TRO
 		victory_points = {
 			11312 1 #Marijampole
 		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 4
+			infrastructure=2
+			arms_factory=1
+			industrial_complex=1
+			air_base=4
 
 		}
-		add_core_of = LIT
+		add_core_of = TRO
 
 	}
 

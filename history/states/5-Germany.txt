@@ -1,14 +1,13 @@
 state = {
-	id = 5
-	name = "STATE_5"
-	manpower = 1238108
-	state_category = town
+	id=5
+	name="STATE_5"
+	manpower=1238108
+	state_category=town
 
 	history = {
 
-		owner = PRE
-		add_core_of = GER
-		add_core_of = PRE
+		owner=KSR
+		add_core_of = KSR
 
 		victory_points = {
 			6375 3 # Allenstein
@@ -19,7 +18,7 @@ state = {
 		#}
 		
 		buildings = {
-			infrastructure = 3
+			infrastructure=3
 		}
 		
 	}

@@ -1,19 +1,18 @@
 state = {
-	id = 53
-	name = "STATE_53"
-	manpower = 1453365
+	id=53
+	name="STATE_53"
+	manpower=1453365
 	
-	state_category = city
+	state_category=city
 
 	history = {
 
-		owner = BAY
-		add_core_of = GER
-		add_core_of = BAY
+		owner=VCE
+		add_core_of = VCE
 
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure=3
+			industrial_complex=1
 		}
 		
 		victory_points = {

@@ -1,18 +1,18 @@
 state = {
-	id = 98
-	name = "STATE_98"
-	manpower = 1412100
-	state_category = rural
+	id=98
+	name="STATE_98"
+	manpower=1412100
+	state_category=rural
 	history = {
 		victory_points = { 
 			3230 5
 		}
 
-		owner = DAF
+		owner=TRO
 		buildings = {
-			infrastructure = 3
+			infrastructure=3
 		}
-		add_core_of = POL
+		add_core_of = TRO
 	}
 	provinces = { 548 3230 6259 6321 6401 6567 9290 9316 11385 }
 	local_supplies = 7.0

@@ -1,23 +1,23 @@
 state = {
-	id = 8
-	name = "STATE_8"
+	id=8
+	name="STATE_8"
 	
-	state_category = town
+	state_category=town
 	
-	manpower = 294748
+	manpower=294748
 	resources = {
-		steel = 14 # was: 5
+		steel=14 # was: 5
 	}
 
 	history = {
 
-		owner = LUX
-		add_core_of = LUX
+		owner=BBY
+		add_core_of = BBY
 
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 3
+			infrastructure=3
+			arms_factory=1
+			industrial_complex=3
 		}
 		victory_points = { 
 			6583 5 # Luxembourg City

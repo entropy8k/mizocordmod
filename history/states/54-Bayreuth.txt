@@ -1,15 +1,14 @@
 state = {
-	id = 54
-	name = "STATE_54"
-	manpower = 2508159
+	id=54
+	name="STATE_54"
+	manpower=2508159
 
-	state_category = city
+	state_category=city
 
 	history = {
 
-		owner = BAY
-		add_core_of = GER
-		add_core_of = BAY
+		owner=VCE
+		add_core_of = VCE
 
 		victory_points = {
 			11544 10 # Nuremberg
@@ -24,8 +23,8 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure=4
+			industrial_complex=2
 		}
 
 		1939.1.1 = {

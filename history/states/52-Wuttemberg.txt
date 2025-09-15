@@ -1,18 +1,17 @@
 state = {
-	id = 52
-	name = "STATE_52"
-	manpower = 2679413
+	id=52
+	name="STATE_52"
+	manpower=2679413
 	resources = {
-		aluminium = 18 # was: 30
+		aluminium=18 # was: 30
 	}
 	
-	state_category = city
+	state_category=city
 
 	history = {
 
-		owner = BAY
-		add_core_of = GER
-		add_core_of = BAY
+		owner=BRN
+		add_core_of = BRN
 
 		victory_points = {
 			692 20 # Munich
@@ -22,10 +21,10 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 1
-			air_base = 6
+			infrastructure=4
+			arms_factory=2
+			industrial_complex=1
+			air_base=6
 		}
 
 		1939.1.1 = {

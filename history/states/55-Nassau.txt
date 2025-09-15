@@ -1,21 +1,20 @@
 state = {
-	id = 55
-	name = "STATE_55"
-	manpower = 3798235
+	id=55
+	name="STATE_55"
+	manpower=3798235
 
-	state_category = large_city
+	state_category=large_city
 
 	history = {
 
-		owner = HES
-		add_core_of = GER
-		add_core_of = HES
+		owner=LOL
+		add_core_of = LOL
 
 		buildings = {
 
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure=4
+			arms_factory=1
+			industrial_complex=2
 
 			# Edersee Dam
 			11533 = { dam = 1 }

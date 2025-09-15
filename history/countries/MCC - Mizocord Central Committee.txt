@@ -1,0 +1,354 @@
+# MCC - Mizocord National Government
+capital = 64  # Berlin
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 12
+	fascist = 24
+	communism = 0
+	neutrality = 64
+}
+
+# BRN - Confed. of Bavaria  
+capital = 52  # Munich
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 60
+	fascist = 15
+	communism = 5
+	neutrality = 20
+}
+
+# MRA - Mizocord Reclamation Authority
+capital = 4  # Vienna
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascist = 65
+	communism = 5
+	neutrality = 20
+}
+
+# KSR - Kaiser's Legion
+capital = 763  # Königsberg
+
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	fascist = 20
+	communism = 0
+	neutrality = 75
+}
+
+# NRK - Nark Republic
+capital = 65  # Dresden
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	fascist = 20
+	communism = 15
+	neutrality = 15
+}
+
+# AFK - Republic of New Afrika
+capital = 66  # Wrocław
+
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascist = 10
+	communism = 60
+	neutrality = 10
+}
+
+# BRK - Bohemian Vanguard State
+capital = 9  # Prague
+
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascist = 5
+	communism = 10
+	neutrality = 60
+}
+
+# DAF - Dunk's Armed Forces
+capital = 153  # Graz
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.7
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascist = 70
+	communism = 5
+	neutrality = 15
+}
+
+# NAA - National Anarchist Army
+capital = 56  # Düsseldorf
+
+set_research_slots = 2
+set_stability = 0.2
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascist = 5
+	communism = 70
+	neutrality = 10
+}
+
+# LOL - Liberation Army
+capital = 51  # Cologne
+
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 65
+	fascist = 15
+	communism = 10
+	neutrality = 10
+}
+
+# VLK - Volker Waffen
+capital = 50  # Stuttgart
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascist = 55
+	communism = 5
+	neutrality = 20
+}
+
+# HSS - BlueBerry Republic
+capital = 59  # Hannover
+
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 70
+	fascist = 10
+	communism = 5
+	neutrality = 15
+}
+
+# LMH - Latinx Nation
+capital = 28  # Saarbrücken
+
+set_research_slots = 1
+set_stability = 0.4
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascist = 15
+	communism = 50
+	neutrality = 10
+}
+
+# TRO - Islamic German State
+capital = 55  # Frankfurt
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascist = 20
+	communism = 5
+	neutrality = 65
+}
+
+# VCE - Leah Independent Zone
+capital = 60  # Magdeburg
+
+set_research_slots = 1
+set_stability = 0.3
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 55
+	fascist = 15
+	communism = 20
+	neutrality = 10
+}
+
+# VWF - Vincent Waffen
+capital = 4  # Vienna
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascist = 60
+	communism = 10
+	neutrality = 15
+}
+
+# LRP - Larp Frontier
+capital = 85  # Poznań
+
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascist = 25
+	communism = 15
+	neutrality = 30
+}
+
+# Common starting techs for all factions (limited due to collapse)
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+}
+
+# Starting manpower and equipment varies by faction size
+add_manpower = 50000  # Adjust per faction
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 3000
+	producer = TAG
+}
